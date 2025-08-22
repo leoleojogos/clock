@@ -10,7 +10,7 @@ function updateClock() {
 setInterval(updateClock, 1000);
 
 document.getElementById("colorButton").onclick = function() {
-    const colors = ["#f0f0f0", "#ffcccc", "#ccffcc", "#ccccff", "#ffffcc"];
+    const colors = ["#f0f0f0", "#ffcccc", "#ccffcc", "#ccccff", "#ffffcc","#0000ff "];
     const currentColor = document.body.style.backgroundColor;
     let newColor = colors[Math.floor(Math.random() * colors.length)];
 

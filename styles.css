@@ -3,21 +3,24 @@ body {
     background-color: #f0f0f0;
     text-align: center;
     padding: 50px;
+  
 }
 
 h1 {
-    color: #333;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
 #clock {
     font-size: 48px;
-    color: #007BFF;
+    color: #000000;
     margin: 20px 0;
     padding: 20px;
     border: 2px solid #007BFF;
     border-radius: 10px;
     background-color: #fff;
+ 
+    
 }
 
 button {
