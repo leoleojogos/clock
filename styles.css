@@ -1,41 +1,84 @@
-<<<<<<< HEAD
-=======
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 50px;
-  
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal ;
+    margin: 0%;
+    padding: 0%;
 }
 
-h1 {
-    color: #ffffff;
-    margin-bottom: 20px;
+html{
+    font-size: 16px;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+button{
+    background: none;
+    border: none;
 }
 
-#clock {
-    font-size: 48px;
-    color: #000000;
-    margin: 20px 0;
-    padding: 20px;
-    border: 2px solid #007BFF;
-    border-radius: 10px;
-    background-color: #fff;
- 
+.btn-link{
+    font-size: 1.4rem;
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.btn-link:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn-active{
+    background-color: black;
+    color: white;
+}
+
+.btn-large{
+    font-size: 3rem;
+    padding: 16px 32px;
+}
+
+.hidden{
+    display: none;
+}
+
+.cicle{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.timer, .tasks{
+    width: 50%;
+    padding: 50px 75px;
     
 }
+.timer{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(158,226,0,0.8), rgba(0,0,0,0.8)), url("forest.jpg") 50% / cover no-repeat;
+   
+    }
 
-button {
-    font-size: 20px;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #28a745;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+    .counter {
+        flex-grow: 1;
+        align-content: center;
+    }
 
-button:hover {
-    background-color: #218838;
+#clock{
+    font-size: 8rem;
+    font-weight: 900;
 }
->>>>>>> 21594d15fbd951eba10983e88266754a13aa8161
